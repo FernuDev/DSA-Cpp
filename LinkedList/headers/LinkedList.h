@@ -26,6 +26,8 @@ class LinkedList {
         void prepend(int value);
         bool insert(int index, int value);
 
+        Node* get(int index);
+
         void printList();
         void printHead();
         void printTail();

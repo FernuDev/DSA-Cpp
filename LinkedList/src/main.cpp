@@ -8,9 +8,14 @@ int main(int argc, char **argv) {
     cout << "\n\tImplementación de LinkedList:\n" << endl;
 
     LinkedList* linkedList = new LinkedList(4);
+
     linkedList->append(5);
     linkedList->append(6);
-    linkedList->append(7);
+
+    linkedList->prepend(10);
+    linkedList->prepend(20);
+
+    linkedList->insert(1, 100);
 
     cout << "\t";
     linkedList->printList();
