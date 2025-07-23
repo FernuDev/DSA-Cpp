@@ -5,7 +5,7 @@ using namespace std;
 
 int main(int argc, char **argv) {
 
-    cout << "\n\tImplementación de LinkedList:\n" << endl;
+    cout << "\n\tImplementación de LinkedList en C++:\n" << endl;
 
     LinkedList* linkedList = new LinkedList(4);
 
